@@ -24,10 +24,26 @@ public class Main {
 
 class Fraction {
 
-    int numerator;
+    private int numerator;
 
-    int denominator;
+    private int denominator;
 
+
+    public int getNumerator() {
+        return this.numerator;
+    }
+
+    public int getDenominator() {
+        return this.denominator;
+    }
+
+    public void setNumerator(int numerator) {
+        this.numerator = numerator;
+    }
+
+    public void setDenominator(int denominator) {
+        this.denominator = denominator;
+    }
 
     Fraction(int numerator, int denominator) {
         this.numerator = numerator;
